@@ -1,39 +1,40 @@
-# Magic Arts - אפליקציית יצירת אמנות אישית
+# Inspirationl Sentences – Personal Art Creation App
 
-ברוכים הבאים ל-Magic Arts!  
-אפליקציה אינטראקטיבית ליצירת תמונות אמנותיות מותאמות אישית, שילוב של טקסט, רקעים, ציטוטים ותמונות – והכל בלחיצת כפתור.
-
----
-
-## מה האפליקציה עושה?
-
-- מאפשרת לכל משתמש ליצור יצירת אמנות דיגיטלית משלו.
-- שילוב של תמונה, טקסט, צבעים ורקע לבחירת המשתמש.
-- שמירה של היצירות בענן (Google Drive).
-- שליחת היצירה למייל של המשתמש.
-- ניהול אישי של הציטוטים, הרקעים והיצירות שלך.
+Welcome to Magic Arts!
+An interactive app for creating custom artistic images, combining text, backgrounds, quotes, and images – all at the click of a button.
 
 ---
 
-## טכנולוגיות עיקריות
+## What does the app do?
 
-- **Frontend:** React.js
-- **Backend:** Node.js + Express.js
-- **Database:** MongoDB Atlas
-- **אינטגרציה:** Google Drive API, Nodemailer
+* Allows each user to create their own digital artwork.
+* Combines images, text, colors, and backgrounds chosen by the user.
+* Saves creations in the cloud (Google Drive).
+* Sends the creation to the user’s email.
+* Personal management of your quotes, backgrounds, and artworks.
 
 ---
 
-## התקנה והרצה
+## Main Technologies
 
-### 1. התקנת צד שרת
+* **Frontend:** React.js
+* **Backend:** Node.js + Express.js
+* **Database:** MongoDB Atlas
+* **Integration:** Google Drive API, Nodemailer
+
+---
+
+## Installation and Running
+
+### 1. Server Setup
 
 ```bash
 cd server-side
 npm install
 npm start
 ```
-### 2. התקנת צד לקוח
+
+### 2. Client Setup
 
 ```bash
 cd client-side
@@ -42,22 +43,25 @@ npm start
 ```
 
 ---
-## תכונות עיקריות
-- הרשמה והתחברות משתמשים
-- יצירת אמנות חדשה (בחירת רקע, הוספת טקסט, העלאת תמונה)
-- שמירת היצירה בדרייב
-- שליחת היצירה למייל
-- ניהול אישי של ציטוטים ורקעים
+
+## Key Features
+
+* User registration and login
+* Create new artwork (choose background, add text, upload image)
+* Save the artwork to Google Drive
+* Send the artwork via email
+* Personal management of quotes and backgrounds
 
 ---
-## הערות
 
-- יש להגדיר סיסמת אפליקציה (App Password) לחשבון Gmail לשליחת מיילים.
-- יש להגדיר הרשאות Google Drive ב-service_account.json.
+## Notes
 
-## תרומה
-
-נשמח לקבל פידבק, הצעות ושיפורים!
-ליצירת קשר: `Idbelizinspiration@gmail.com`
+* You must set up an App Password for your Gmail account to send emails.
+* Google Drive permissions must be configured in `service_account.json`.
 
 ---
+
+## Contribution
+
+We welcome feedback, suggestions, and improvements!
+Contact: `Idbelizinspiration@gmail.com`
